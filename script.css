@@ -40,12 +40,17 @@ h1{
   .main{
     margin-top: 10%;
   }
+  .arrow{
+    background-color: blue;
+  }
 
   @media screen and (max-width: 700px) {
     .stock{
-      width: 100%;
+      /* width: 100%; */
     }
-    .project{
+    #project{
       width: 100%;
+      border: 1px solid rebeccapurple;
+      /* margin-left: -10px; */
     }
   }
